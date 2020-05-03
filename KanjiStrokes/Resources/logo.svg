@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs26">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient34">
+      <stop
+         id="stop32"
+         offset="0"
+         style="stop-color:#00e77f;stop-opacity:1" />
+      <stop
+         id="stop30"
+         offset="1"
+         style="stop-color:#1dbfea;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient34"
+       id="linearGradient36"
+       x1="4.1603775"
+       y1="21.650942"
+       x2="9.1698103"
+       y2="16.103773"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview24"
+     showgrid="false"
+     inkscape:zoom="3.1230549"
+     inkscape:cx="105.87987"
+     inkscape:cy="126.3766"
+     inkscape:window-x="1912"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <path
+     d="m 8.1050961,9.0960241 h 6.0390689 q 0.844171,0 0.844171,0.6818304 0,0.6818305 -0.844171,0.6818305 H 8.1050961 v 2.857194 q 0.1136384,2.077959 -1.9318528,1.948087 H 5.0206252 q -0.8441709,0 -0.8441709,-0.763001 0,-0.763001 0.8441709,-0.763001 h 1.0227456 q 0.5844261,-0.01623 0.6006601,-0.60066 V 10.459685 H 0.88094069 q -0.84417096,0 -0.84417096,-0.6818305 0,-0.6818304 0.84417096,-0.6818304 H 6.6440309 V 8.4304278 Q 6.660265,7.651193 7.0174142,7.35898 L 7.3907976,7.1479373 9.9720126,6.1576598 q 0.2597454,-0.08117 0.2597454,-0.1461065 0,-0.048702 -0.06494,-0.048702 H 2.9589 q -0.7142985,0 -0.7142985,-0.6493623 0,-0.6493623 0.7142985,-0.6493623 h 8.555348 q 1.250022,0 1.250022,0.8766391 0,0.3409152 -0.357149,0.5357239 L 10.702545,6.8881924 9.517459,7.3914481 8.2674366,7.927172 Q 8.1050961,8.0570445 8.1050961,8.4141937 Z M 6.6277969,1.8881028 V 0.91405938 q 0,-0.89287314 0.7954688,-0.89287314 0.7954688,0 0.7954688,0.89287314 V 1.8881028 h 4.9351535 q 1.785746,-0.1136384 1.672108,1.6883419 v 1.6071717 q 0,0.8441709 -0.730533,0.8441709 -0.730532,0 -0.730532,-0.8441709 V 4.0309983 q 0,-0.7792347 -0.779235,-0.7792347 H 2.4231761 q -0.7792347,0 -0.7792347,0.7792347 v 1.1526181 q 0,0.8441709 -0.7305326,0.8441709 -0.73053256,0 -0.73053256,-0.8441709 V 3.5764447 Q 0.06923784,1.7744644 1.8549841,1.8881028 Z"
+     style="font-size:16.62367439px;display:inline;fill:#00e77f;fill-opacity:1;stroke-width:0.17316328"
+     id="path832"
+     inkscape:connector-curvature="0"
+     inkscape:label="kanji" />
+  <path
+     d="M0 21.398c5.504.456 3.533-5.392 8.626-5.445l2.206 1.841c.549 6.645-7.579 8.127-10.832 3.604zm16.878-8.538c1.713-2.687 7.016-11.698 7.016-11.698.423-.747-.515-1.528-1.17-.976 0 0-7.887 6.857-10.213 9.03-1.838 1.719-1.846 2.504-2.441 5.336l2.016 1.681c2.67-1.098 3.439-1.248 4.792-3.373z"
+     id="path20"
+     style="fill-opacity:1;fill:url(#linearGradient36)"
+     inkscape:label="brush" />
+</svg>

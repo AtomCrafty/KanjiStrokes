@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\kanjidic\kanjidic2.xml.gz" />
+    <None Remove="Resources\kradfiles\kradfile" />
+    <None Remove="Resources\kradfiles\kradfile2" />
+    <None Remove="Resources\logo-white.ico" />
+    <None Remove="Resources\logo-white.png" />
+    <None Remove="Resources\logo.ico" />
+    <None Remove="Resources\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0-preview.3.20214.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\kanjidic\kanjidic2.xml.gz" />
+    <Resource Include="Resources\KanjiStrokeOrders_v4.003.ttf" />
+    <Resource Include="Resources\kradfiles\kradfile">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\kradfiles\kradfile2">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\logo-white.ico" />
+    <Resource Include="Resources\logo-white.png" />
+    <Resource Include="Resources\logo.ico" />
+    <Resource Include="Resources\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ThemeDark.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

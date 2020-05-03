@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svg6052" Width="800" Height="450">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources/>
+    <!--Unknown tag: metadata-->
+    <!--Unknown tag: sodipodi:namedview-->
+    <Image xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="image6026" Source="helppage.png" Width="800" Height="450" Stretch="Fill"/>
+    <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="ArrowTextArea" Stroke="#FF000000">
+      <Path.Data>
+        <PathGeometry Figures="m 552.71 326.51 c 1.24 7.471 -5.059 15.454 -12.248 17.293 -19.737 5.05 -30.898 -28.609 -36.752 -41.293 m 7.49 0.95 c -4.28 -0.965 -6.285 -4.796 -10.118 -6.504 0.012 3.201 -0.255 9.697 -2.112 12.511" FillRule="NonZero"/>
+      </Path.Data>
+    </Path>
+    <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="ArrowOpenGitHub" Stroke="#FF000000">
+      <Path.Data>
+        <PathGeometry Figures="m 42.938 395.71 c 4.8014 -3.3855 14.839 5.2207 19.456 6.6875 17.39 5.5215 24.812 -10.31 30.931 -23.828 M 48.961 400.52 c -3.4515 -2.7095 -7.6875 -1.8464 -11.433 -3.7401 2.4914 -2.0119 7.3595 -6.3196 8.3695 -9.5374" FillRule="NonZero"/>
+      </Path.Data>
+    </Path>
+    <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="ArrowInfoPanel" Stroke="#FF000000">
+      <Path.Data>
+        <PathGeometry Figures="m 682.44 42.403 c 9.6405 11.215 30.776 12.983 40.878 1.1281 2.65 -3.1105 7.4845 -9.4127 4.7559 -13.638 -5.9867 -9.2684 -21.588 10.887 -6.1847 15.232 6.3708 1.7965 13.851 -1.1149 19.741 -3.4234 6.9933 -2.7385 13.633 -6.2933 20.626 -9.0309 M 762.14 40.328 c 0.3743 -4.3715 3.8954 -6.88 5.0657 -10.911 -3.1704 0.44907 -9.6424 1.0696 -12.682 -0.38742" FillRule="NonZero"/>
+      </Path.Data>
+    </Path>
+    <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="ArrowDarkMode" Stroke="#FF000000">
+      <Path.Data>
+        <PathGeometry Figures="m23.62 74.488c0.86738 5.679 2.2448 14.965 8.5444 17.352 5.5891 2.1162 12.342-2.137 16.927-4.8637 6.6854-3.9743 26.649-18.23 24.393-0.31069-0.74464 5.9125-3.1381 11.297-6.3302 16.28M31.025 76.473c-4.1279-1.4874-5.6442-5.5369-9.2368-7.7066-0.38332 3.1805-1.4521 9.5936-3.6437 12.155" FillRule="NonZero"/>
+      </Path.Data>
+    </Path>
+    <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="ArrowCreditsPanel" Stroke="#FF000000">
+      <Path.Data>
+        <PathGeometry Figures="m 129.86 430.67 c -9.8819 12.467 -17.422 15.087 -31.156 6.64 -19.451 -11.963 -33.64 -14.737 -56.447 -10.276 m 3.152 -7.234 c -1.6795 4.054 -5.7938 5.3795 -8.1291 8.8668 3.1591 0.53231 9.5144 1.8987 11.971 4.206" FillRule="NonZero"/>
+      </Path.Data>
+    </Path>
+    <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="ArrowFullscreen" Stroke="#FF000000">
+      <Path.Data>
+        <PathGeometry Figures="m41.93 14.448c41.718-12.575 78.566 1.7039 106.8 33.871m-104.91-40.926c-1.5811 4.0921-5.6632 5.5173-7.9119 9.0611 3.1698 0.45407 9.5569 1.6664 12.07 3.9148" FillRule="NonZero"/>
+      </Path.Data>
+    </Path>
+    <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="ArrowHelpPage" Stroke="#FF000000">
+      <Path.Data>
+        <PathGeometry Figures="m 18.671 344.18 c 0.33351 -25.72 20.294 -53.947 48.544 -44.051 m -54.341 38.99 c 3.1117 3.0929 2.7751 7.403 5.1132 10.888 1.6923 -2.7197 5.37 -8.0801 8.4391 -9.4757" FillRule="NonZero"/>
+      </Path.Data>
+    </Path>
+  </Canvas>
+</Viewbox>

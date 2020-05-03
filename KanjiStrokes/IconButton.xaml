@@ -1,0 +1,62 @@
+﻿<Button x:Class="KanjiStrokes.IconButton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        mc:Ignorable="d"
+        Height="28" Width="28" Margin="2"
+        Name="Button">
+    <Button.Style>
+        <Style TargetType="ButtonBase">
+                <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+                <Setter Property="Background" Value="{DynamicResource Button.Static.Background}"/>
+                <Setter Property="Foreground" Value="{DynamicResource Button.Static.Foreground}"/>
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ButtonBase">
+                            <Border x:Name="border" Background="{TemplateBinding Background}"
+                                CornerRadius="4" BorderThickness="0" SnapsToDevicePixels="True">
+                                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="{DynamicResource Button.MouseOver.Background}"/>
+                                    <Setter Property="Foreground" Value="{DynamicResource Button.MouseOver.Foreground}"/>
+                                </Trigger>
+                                <Trigger Property="ToggleButton.IsChecked" Value="True">
+                                    <Setter Property="Background" Value="{DynamicResource Button.Pressed.Background}"/>
+                                    <Setter Property="Foreground" Value="{DynamicResource Button.Pressed.Foreground}"/>
+                                </Trigger>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter Property="Background" Value="{DynamicResource Button.Pressed.Background}"/>
+                                    <Setter Property="Foreground" Value="{DynamicResource Button.Pressed.Foreground}"/>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter Property="Background" Value="{DynamicResource Button.Disabled.Background}"/>
+                                    <Setter Property="Foreground" Value="{DynamicResource Button.Disabled.Foreground}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+    </Button.Style>
+    <Viewbox Width="20" Height="20">
+        <Canvas Width="24" Height="24">
+            <Path Fill="{Binding Foreground, ElementName=Button}">
+                <Path.Style>
+                    <Style TargetType="Path">
+                        <Setter Property="Data" Value="{Binding Icon, ElementName=Button}"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding UseAlternateIcon, ElementName=Button}" Value="True">
+                                <Setter Property="Data" Value="{Binding AlternateIcon, ElementName=Button}"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Path.Style>
+            </Path>
+        </Canvas>
+    </Viewbox>
+</Button>

@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Colors.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <SolidColorBrush x:Key="Foreground" Color="{StaticResource Colors.Light2}"/>
+    <SolidColorBrush x:Key="Background" Color="{StaticResource Colors.Dark3}"/>
+
+    <SolidColorBrush x:Key="Button.Static.Background" Color="{StaticResource Colors.Dark3}"/>
+    <SolidColorBrush x:Key="Button.Static.Foreground" Color="{StaticResource Colors.Dark5}"/>
+    <SolidColorBrush x:Key="Button.MouseOver.Background" Color="{StaticResource Colors.Dark4}"/>
+    <SolidColorBrush x:Key="Button.MouseOver.Foreground" Color="{StaticResource Colors.Dark6}"/>
+    <SolidColorBrush x:Key="Button.Pressed.Background" Color="{StaticResource Colors.Dark4}"/>
+    <SolidColorBrush x:Key="Button.Pressed.Foreground" Color="{StaticResource Colors.Dark3}"/>
+    <SolidColorBrush x:Key="Button.Disabled.Background" Color="{StaticResource Colors.Dark3}"/>
+    <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="{StaticResource Colors.Dark2}"/>
+    <SolidColorBrush x:Key="TextArea.Selection.Background" Color="{StaticResource Colors.Dark4}"/>
+    <SolidColorBrush x:Key="TextArea.Selection.Foreground" Color="{StaticResource Colors.Light1}"/>
+    <SolidColorBrush x:Key="Panel.Background" Color="{StaticResource Colors.Dark4}"/>
+    <SolidColorBrush x:Key="Panel.Separator" Color="{StaticResource Colors.Dark5}"/>
+    <SolidColorBrush x:Key="Hyperlink.Static.Foreground" Color="#3BDC46"/>
+    <SolidColorBrush x:Key="Hyperlink.MouseOver.Foreground" Color="#5FE668"/>
+    <SolidColorBrush x:Key="Overlay.Background" Color="White" Opacity="0.2"/>
+    <SolidColorBrush x:Key="Overlay.Foreground" Color="{StaticResource Colors.Dark6}"/>
+</ResourceDictionary>
