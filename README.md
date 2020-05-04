@@ -1,7 +1,7 @@
 # Kanji Strokes
 A small tool to display kanji stroke order, intended for languange learners.
 
-![Kanji Strokes Logo](KanjiStrokes/Resources/logo.svg)
+![Kanji Strokes Logo](KanjiStrokes/Resources/logo/logo-4.svg)
 
 ## Features
 - Real-time stroke order display while you type
