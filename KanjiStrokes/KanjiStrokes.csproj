@@ -4,6 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources/logo/logo-4.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
