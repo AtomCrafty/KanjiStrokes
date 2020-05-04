@@ -7,32 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\kanjidic\kanjidic2.xml.gz" />
-    <None Remove="Resources\kradfiles\kradfile" />
-    <None Remove="Resources\kradfiles\kradfile2" />
-    <None Remove="Resources\logo-white.ico" />
-    <None Remove="Resources\logo-white.png" />
-    <None Remove="Resources\logo.ico" />
-    <None Remove="Resources\logo.png" />
+    <None Remove="Resources\database\KanjiStrokeOrders_v4.003.ttf" />
+    <None Remove="Resources\database\kanjidic2.xml.gz" />
+    <None Remove="Resources\database\kradfile" />
+    <None Remove="Resources\logo\logo-4.ico" />
+    <None Remove="Resources\logo\logo-4-white.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\database\KanjiStrokeOrders_v4.003.ttf" />
+    <Resource Include="Resources\database\kanjidic2.xml.gz" />
+    <Resource Include="Resources\database\kradfile" />
+    <Resource Include="Resources\logo\logo-4.ico" />
+    <Resource Include="Resources\logo\logo-4-white.ico" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0-preview.3.20214.6" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Resources\kanjidic\kanjidic2.xml.gz" />
-    <Resource Include="Resources\KanjiStrokeOrders_v4.003.ttf" />
-    <Resource Include="Resources\kradfiles\kradfile">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\kradfiles\kradfile2">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\logo-white.ico" />
-    <Resource Include="Resources\logo-white.png" />
-    <Resource Include="Resources\logo.ico" />
-    <Resource Include="Resources\logo.png" />
   </ItemGroup>
 
   <ItemGroup>

@@ -71,7 +71,7 @@ namespace KanjiStrokes {
 			try {
 				var radicalData = await LoadRadicalData();
 
-				await using var stream = new GZipStream(App.OpenResource("resources/kanjidic/kanjidic2.xml.gz"), CompressionMode.Decompress);
+				await using var stream = new GZipStream(App.OpenResource("resources/database/kanjidic2.xml.gz"), CompressionMode.Decompress);
 
 				KanjiInfo ProcessCharacterNode(XElement node) {
 					try {
@@ -119,7 +119,7 @@ namespace KanjiStrokes {
 
 		protected async Task<Dictionary<char, string>> LoadRadicalData() {
 			try {
-				await using var stream = App.OpenResource("resources/kradfiles/kradfile");
+				await using var stream = App.OpenResource("resources/database/kradfile");
 				using var reader = new StreamReader(stream, Encoding.GetEncoding(20932 /* EUC-JP */));
 
 				var kanjiToRadicals = new Dictionary<char, string>();
