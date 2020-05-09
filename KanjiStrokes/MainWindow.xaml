@@ -169,6 +169,7 @@
                                 <RowDefinition Height="8"/>
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
 
                             <TextBlock Grid.Row="0" Grid.Column="0" Text="Grade:"/>
@@ -183,6 +184,8 @@
                             <TextBlock Grid.Row="5" Grid.Column="2" Text="{Binding ReadingOn}"/>
                             <TextBlock Grid.Row="6" Grid.Column="0" Text="Kun reading:"/>
                             <TextBlock Grid.Row="6" Grid.Column="2" Text="{Binding ReadingKun}"/>
+                            <TextBlock Grid.Row="7" Grid.Column="0" Text="Nanori:"/>
+                            <TextBlock Grid.Row="7" Grid.Column="2" Text="{Binding Nanori, Converter={StaticResource StringJoinConverter}, ConverterParameter=', '}" TextWrapping="Wrap"/>
                         </Grid>
 
                         <TextBlock Text="Meanings" Foreground="{DynamicResource Foreground}" FontSize="14" FontWeight="Bold"/>
@@ -342,7 +345,7 @@
                                       ToolTip="Toggle info panel (F10)"/>
                 </StackPanel>
 
-                <StackPanel Grid.Column="0" Margin="2" HorizontalAlignment="left" VerticalAlignment="top">
+                <StackPanel Grid.Column="0" Margin="2" VerticalAlignment="Top" HorizontalAlignment="Left">
 
                     <local:IconButton Icon="{StaticResource Icons.Maximize}"
                                       AlternateIcon="{StaticResource Icons.Restore}"
@@ -357,7 +360,7 @@
                                       ToolTip="Toggle dark mode (F11)"/>
                 </StackPanel>
 
-                <StackPanel Margin="2" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <StackPanel Margin="2" VerticalAlignment="Bottom" HorizontalAlignment="Left">
 
                     <local:IconButton Icon="{StaticResource Icons.Help}"
                                       AlternateIcon="{StaticResource Icons.Help.Filled}"
