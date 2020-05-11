@@ -357,7 +357,7 @@
                                       AlternateIcon="{StaticResource Icons.Moon}"
                                       UseAlternateIcon="{Binding DarkMode}"
                                       Command="{Binding ToggleDarkModeCommand}"
-                                      ToolTip="Toggle dark mode (F11)"/>
+                                      ToolTip="Toggle dark mode (F12)"/>
                 </StackPanel>
 
                 <StackPanel Margin="2" VerticalAlignment="Bottom" HorizontalAlignment="Left">
